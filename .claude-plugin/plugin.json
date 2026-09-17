@@ -1,0 +1,11 @@
+{
+  "name": "entity-choice",
+  "description": "Practitioner-facing CPA decision support for choice of entity and entity conversions (US federal + state). Bundles the entity-choice skill.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tanmay Upadhye",
+    "email": "tanmayupadhye5@gmail.com"
+  },
+  "homepage": "https://github.com/tanmayupadhye5-hue/entity-choice",
+  "license": "MIT"
+}

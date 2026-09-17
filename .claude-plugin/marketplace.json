@@ -1,0 +1,19 @@
+{
+  "name": "entity-choice",
+  "owner": {
+    "name": "Tanmay Upadhye",
+    "email": "tanmayupadhye5@gmail.com"
+  },
+  "metadata": {
+    "description": "CPA choice-of-entity and conversion advisory skill for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "entity-choice",
+      "source": "./",
+      "description": "Practitioner-facing decision support for choosing or converting a business entity structure (sole prop, GP, LLP, LLC, S corp, C corp) for US federal and state tax purposes. Runs a four-tier workflow and produces a draft advisory memo for professional review.",
+      "version": "1.0.0"
+    }
+  ]
+}

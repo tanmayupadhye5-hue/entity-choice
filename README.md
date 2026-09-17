@@ -33,18 +33,28 @@ Roadmap** for the CPA.
 
 | File | Purpose |
 |---|---|
-| `SKILL.md` | The workflow, tiers, output format, and behavior settings. |
-| `benchmarks.md` | Parameters read on **every** run — federal + DE/TX/MI/NY, plus a **user-maintained section** you edit and keep. |
-| `references/deep-dives.md` | Detailed Tier 2 tax-module analysis, loaded only when a trigger fires. |
+| `skills/entity-choice/SKILL.md` | The workflow, tiers, output format, and behavior settings. |
+| `skills/entity-choice/benchmarks.md` | Parameters read on **every** run — federal + DE/TX/MI/NY, plus a **user-maintained section** you edit and keep. |
+| `skills/entity-choice/references/deep-dives.md` | Detailed Tier 2 tax-module analysis, loaded only when a trigger fires. |
+| `.claude-plugin/marketplace.json` | Lets Claude Code install this as a plugin (see below). |
 
-## Install
+## Install in Claude Code (recommended)
 
-**Claude (desktop / claude.ai) with skills enabled:** download this repo,
-package the folder into a `.skill` file, and use the **Save skill** button — or
-place the `entity-choice/` folder in your skills directory.
+This repo is a Claude Code plugin marketplace. Add it once, then install:
 
-**Claude Code:** drop the `entity-choice/` folder into your project's or user
-skills directory so it appears in your available skills.
+```
+/plugin marketplace add tanmayupadhye5-hue/entity-choice
+/plugin install entity-choice
+```
+
+Restart Claude Code if prompted, then run `/skills` to confirm `entity-choice`
+is available.
+
+## Install manually (any Claude with skills)
+
+Copy the `skills/entity-choice/` folder into your skills directory — e.g.
+`~/.claude/skills/entity-choice/` for Claude Code, so the path is
+`~/.claude/skills/entity-choice/SKILL.md`.
 
 ## Maintain your own benchmarks
 
