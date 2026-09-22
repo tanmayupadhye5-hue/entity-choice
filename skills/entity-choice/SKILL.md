@@ -96,10 +96,10 @@ outright. State the disqualifying fact when you drop an option.
 |---|---|---|
 | One owner | GP, LLP (need 2+ owners) | — |
 | Non-resident alien owner | S corp | §1361(b)(1)(C) |
-| Corporate or partnership owner | S corp | §1361(b)(1)(B) |
+| Corporate or partnership owner | S corp | §1361(b)(1)(B) — but a **disregarded entity** looks through to its owner and does not itself disqualify. |
 | More than 100 shareholders | S corp | §1361(b)(1)(A) |
 | Needs more than one class of stock | S corp | §1361(b)(1)(D) |
-| Ineligible trust holds interest | S corp (unless QSST/ESBT election) | §1361(c)(2) |
+| **Ineligible** trust holds interest | S corp | §1361(c)(2) — grantor, QSST, ESBT, voting and testamentary (2-yr) trusts **are eligible**; QSST/ESBT require an election. Only other trusts disqualify. |
 | Liability shield required | Sole prop, GP | — |
 | Licensed profession | Plain LLC in many states (PLLC/PC instead) | state law |
 | Institutional outside capital planned | All but C corp (investor preference for preferred stock) | — |
@@ -120,7 +120,14 @@ Three questions open every run:
 
 Then the standard twelve:
 
-1. Owner count, citizenship/residency, and owner type.
+1. For **each owner**: ownership %, whether they work in the business, and whether they are
+   an individual, an entity or a trust.
+   - **Individuals**: filing status (single, MFJ, MFS, head of household, qualifying
+     surviving spouse) and other taxable income — the §199A threshold test is applied to
+     *each owner's own* taxable income, and MFJ carries roughly double the threshold.
+   - **Entities**: what kind (C corp, S corp, partnership, disregarded, tax-exempt,
+     foreign, ESOP), plus UBTI (§512), §1446 withholding and any blocker.
+   - **Trusts**: what kind, since that decides S-corp eligibility.
 2. Nature of business — service or product, and whether it is a licensed profession.
 3. Projected net income for the next three years, as a range.
 4. Which owners work in the business and which are passive.
