@@ -61,6 +61,12 @@ and traps seen in practice. It has two parts:
   positions, and two behavior settings. Never overwrite this section; a skill
   update must leave it intact.
 
+**Check each figure's `as_of` against the tax year.** Where a figure you rely
+on predates the engagement's tax year, say so near the top of the memo, name
+the figures affected, and treat them as estimates. Never present an earlier
+year's figure as current, and never fill a figure missing from the file from
+memory - name it as unverified instead.
+
 The two behavior settings, and the safety floor that overrides them, are
 described under [Behavior settings](#behavior-settings) below.
 
@@ -261,8 +267,17 @@ omission here is the most expensive kind.)*
 - **§754 election** - where appreciated property or real estate is involved:
   filed with a timely return for the year of the transfer or death, and it binds
   the partnership going forward.
-- **First-return elections** - accounting method, and the required tax year for
-  a partnership or S corporation absent a §444 election.
+- **First-return elections** - accounting method, and the required tax year.
+  For a partnership, work §706(b) in order, using the actual profit and capital
+  percentages:
+  1. **Majority interest** - partners who share one tax year and together hold
+     **more than 50% of profits AND more than 50% of capital**. Ownership or
+     voting percentages are not the test.
+  2. Otherwise, the year of all **principal partners** (each holding 5%+ of
+     profits or capital), if they share one.
+  3. Otherwise, the year of **least aggregate deferral**.
+  An S corporation uses the calendar year. Either may depart from its required
+  year only through a §444 election or a business-purpose year.
 
 State the deadline, not merely the election.
 

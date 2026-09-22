@@ -54,3 +54,9 @@ drift, and its test suite fails on it. Run it after editing either side.
   elections** (§83(b)'s 30 days with no §9100 relief, Form 2553, QSST/ESBT, §754,
   first-return elections), and must *conclude* the disguised-sale question rather
   than merely mention it.
+- §706(b) **majority interest is more than 50% of profits AND capital** — never
+  ownership or voting percentages.
+- §199A is tested **owner by owner with the arithmetic** before any limit is
+  called a risk; SE tax **shares one wage base per person**.
+- A benchmark figure older than the tax year is **flagged, not presented as
+  current**; a figure missing from the file is never filled from memory.

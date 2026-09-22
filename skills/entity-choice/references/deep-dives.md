@@ -102,8 +102,18 @@ partnership/LLC (debt basis under §752) over an S corp.
 - **Retirement-plan capacity.** W-2 wages (S corp) vs. SE income (sole
   prop/partnership) drive Solo-401(k)/SEP limits differently — sometimes offsets
   the SE-tax delta.
-- **§199A phase-outs & SSTB.** Above the threshold, SSTBs lose QBI; W-2/UBIA
-  limits bite. Entity form affects W-2 wages available.
+- **§199A - test each owner, with the arithmetic.** Before applying any limit,
+  estimate each owner's taxable income and compare it with that owner's own
+  threshold for their filing status. Below it, neither the SSTB exclusion nor
+  the W-2/UBIA limit applies; above it, SSTBs lose QBI and the W-2/UBIA limits
+  bite.
+- **SE tax - one wage base per person.** A partner's guaranteed payment, any
+  distributive share subject to SE tax, and any W-2 wages from other work all
+  share one Social Security wage base. Apply 12.4% OASDI up to the unused base,
+  2.9% Medicare on all net SE earnings (x 92.35%), and 0.9% Additional Medicare
+  above the filing-status threshold. Whether a member's distributive share is
+  SE income at all is unsettled (§1402(a)(13); *Renkemeyer*, *Soroban*); state
+  the position taken.
 - **State PTET.** Elective pass-through entity tax to work around the SALT cap.
 
 ## 7. Real estate or multiple business lines
