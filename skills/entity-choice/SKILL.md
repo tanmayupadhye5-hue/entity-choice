@@ -126,7 +126,11 @@ Then the standard twelve:
 4. Which owners work in the business and which are passive.
 5. Expected profit split — pro rata or unequal.
 6. Whether the entity will borrow, and whether owners will personally guarantee.
-7. Property being contributed — appreciated, encumbered, or cash only.
+7. Property being contributed. For each contributed asset capture the
+   **contributor**, the **carryover basis** (their adjusted basis), the
+   **present fair market value**, and the **liability the entity assumes** —
+   these three figures decide whether the contribution is tax-free and what
+   basis everyone takes.
 8. Services contributed for equity by any owner.
 9. Losses expected in early years, and whether owners need them personally.
 10. Outside capital or equity-compensation horizon.
@@ -205,6 +209,27 @@ Print the memo to chat in this fixed structure:
 
 ## Eliminated options
 <Each eliminated option with its disqualifying fact>
+
+## Contributed property consequences
+
+*(Include this section whenever any property is contributed.)* For each
+contributed property, state:
+- **Built-in gain or loss** - present FMV less the contributor's carryover basis.
+- **Liability assumed vs. carryover basis** - whether the liability the entity
+  assumes exceeds that basis, and if so the gain triggered and roughly how much
+  (§357(c) in corporate form; §752(b) deemed distribution and §731 gain in
+  partnership form).
+- **The entity's basis in the property** - carryover under §723 (partnership) or
+  §362 (corporation), plus any gain recognised.
+- **The contributing owner's outside basis** - §722, increased by their share of
+  liabilities under §752 and reduced by the liability shifted to the others.
+- **§704(c) layer** - the built-in gain allocated back to that contributor, and
+  the method choice (traditional, curative, remedial) where it matters.
+- **Recapture exposure** - §1245/§1250 on the accumulated depreciation, and the
+  carryover holding period and depreciation schedule under §168(i)(7).
+
+§tate how the answer differs under each surviving entity form; contributed
+property is frequently the fact that decides the recommendation.
 
 ## Assumptions relied on (unconfirmed)
 <Load-bearing facts the practitioner has not confirmed, tagged as such>
