@@ -30,6 +30,11 @@ authority. Keep this depth out of the client conversation.
 - **§357(b).** Assumption of liabilities with a tax-avoidance or non-business
   purpose taints the *entire* liability amount as boot — a sharper trap than
   §357(c).
+- **Disguised sale (§707(a)(2)(B); Reg. §1.707-3/-5).** A liability the
+  partnership assumes is sale consideration unless it is a **qualified
+  liability** (broadly: incurred >2 years before the transfer, in the ordinary
+  course, or allocable to capital expenditures on that property). Transfers
+  within two years are presumed a sale. Clear it explicitly.
 - **§704(c).** In a partnership, built-in gain on contributed property must be
   allocated back to the contributing partner. This constrains "just split it
   evenly" arrangements and is a reason a partnership may be *more* faithful to
@@ -47,7 +52,10 @@ authority. Keep this depth out of the client conversation.
   services is generally non-taxable on grant; a **capital interest** for services
   is compensation.
 - **Services-for-equity as compensation.** In a corp, stock for services is
-  ordinary income (§83); consider §83(b).
+  ordinary income (§83). A protective **§83(b) election must be filed within
+  30 days** of grant - an absolute deadline with no §9100 relief. It is the
+  standard precaution even for a profits interest, in case the interest is
+  later recharacterised as a capital interest.
 
 ## 3. Entity will carry debt
 **Trigger:** entity will borrow; owners may or may not guarantee.

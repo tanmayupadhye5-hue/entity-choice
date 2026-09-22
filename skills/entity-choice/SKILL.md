@@ -232,11 +232,39 @@ contributed property, state:
   liabilities under §752 and reduced by the liability shifted to the others.
 - **§704(c) layer** - the built-in gain allocated back to that contributor, and
   the method choice (traditional, curative, remedial) where it matters.
+- **Disguised sale (§707(a)(2)(B), Reg. §1.707-3/-5).** Where the entity
+  assumes a liability on contributed property, decide whether it is a
+  **qualified liability** (broadly, incurred more than two years before the
+  transfer, or in the ordinary course, or allocable to capital expenditures on
+  that property). A qualified liability is generally not sale consideration; a
+  non-qualified one is, to the extent it exceeds the partner's share. Reach a
+  conclusion either way - "considered and qualified" and silence look identical
+  to the reader.
 - **Recapture exposure** - §1245/§1250 on the accumulated depreciation, and the
   carryover holding period and depreciation schedule under §168(i)(7).
 
 §tate how the answer differs under each surviving entity form; contributed
 property is frequently the fact that decides the recommendation.
+
+## Deadlines and elections
+
+*(Include whenever any of these apply. Several have no relief mechanism, so an
+omission here is the most expensive kind.)*
+
+- **§83(b)** - where equity is issued for services. A pure profits interest
+  under Rev. Proc. 93-27 is generally non-taxable on grant, but a protective
+  election is standard practice and the **30-day deadline is absolute** - there
+  is no §9100 relief for missing it.
+- **Form 2553** - where an S election is contemplated: generally 2 months and
+  15 days from the start of the tax year it is to take effect.
+- **QSST / ESBT election** - where a trust would hold S corporation stock.
+- **§754 election** - where appreciated property or real estate is involved:
+  filed with a timely return for the year of the transfer or death, and it binds
+  the partnership going forward.
+- **First-return elections** - accounting method, and the required tax year for
+  a partnership or S corporation absent a §444 election.
+
+State the deadline, not merely the election.
 
 ## Assumptions relied on (unconfirmed)
 <Load-bearing facts the practitioner has not confirmed, tagged as such>
