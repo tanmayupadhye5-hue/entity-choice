@@ -25,9 +25,18 @@ This repo is both a **plugin marketplace** and the plugin itself:
 
 ## Keep it in sync with the app
 
-`C:\Claude\entity-choice-app` **vendors copies of all three files** in
-`app/content/`. Any change to the analysis method must be made in both, or the
-skill and the app give different answers. See that project's `CLAUDE.md`.
+`C:\Claude\entity-choice-app` **vendors copies of all three files**. A change
+made here alone means the app still gives the old answer. **The paths do not
+mirror each other:**
+
+| Skill (this repo) | App |
+|---|---|
+| `skills/entity-choice/SKILL.md` | `app/content/SKILL.md` |
+| `skills/entity-choice/benchmarks.md` | `app/content/benchmarks.md` |
+| `skills/entity-choice/references/deep-dives.md` | `app/content/deep-dives.md` |
+
+From the app, `.venv\Scripts\python.exe -m scripts.check_skill_sync` reports any
+drift, and its test suite fails on it. Run it after editing either side.
 
 ## Corrections already made — do not regress
 
