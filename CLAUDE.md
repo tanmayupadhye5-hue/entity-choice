@@ -38,6 +38,20 @@ mirror each other:**
 From the app, `.venv\Scripts\python.exe -m scripts.check_skill_sync` reports any
 drift, and its test suite fails on it. Run it after editing either side.
 
+## Releasing — bump the version or nobody gets the change
+
+Installed copies are cached by version (`~/.claude/plugins/cache/entity-choice/
+entity-choice/<version>/`). Content pushed without a version bump never reaches
+an installed copy: until 1.1.0, eight commits of corrections sat unreleased
+behind an unchanged 1.0.0. On every content change:
+
+1. Bump `version` in `.claude-plugin/plugin.json` **and** both `version` fields
+   in `.claude-plugin/marketplace.json`; run `claude plugin validate .`.
+2. Commit and push.
+3. Update the local install: `claude plugin marketplace update entity-choice`
+   then `claude plugin update entity-choice@entity-choice -y`, and restart
+   Claude Code.
+
 ## Corrections already made — do not regress
 
 - Grantor, QSST, ESBT, voting and testamentary trusts **are eligible** S

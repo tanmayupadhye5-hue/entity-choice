@@ -104,7 +104,7 @@ outright. State the disqualifying fact when you drop an option.
 | Non-resident alien owner | S corp | §1361(b)(1)(C) |
 | Corporate or partnership owner | S corp | §1361(b)(1)(B) — but a **disregarded entity** looks through to its owner and does not itself disqualify. |
 | More than 100 shareholders | S corp | §1361(b)(1)(A) |
-| Needs more than one class of stock | S corp | §1361(b)(1)(D) |
+| Needs more than one class of stock | S corp | §1361(b)(1)(D) — only a definite **yes** eliminates. If the answer is **not sure**, keep the S corp **provisionally** and flag the one-class question as open in the memo. |
 | **Ineligible** trust holds interest | S corp | §1361(c)(2) — grantor, QSST, ESBT, voting and testamentary (2-yr) trusts **are eligible**; QSST/ESBT require an election. Only other trusts disqualify. |
 | Liability shield required | Sole prop, GP | — |
 | Licensed profession | Plain LLC in many states (PLLC/PC instead) | state law |
@@ -132,31 +132,52 @@ Then the standard twelve:
      surviving spouse) and other taxable income — the §199A threshold test is applied to
      *each owner's own* taxable income, and MFJ carries roughly double the threshold.
    - **Entities**: what kind (C corp, S corp, partnership, disregarded, tax-exempt,
-     foreign, ESOP), plus UBTI (§512), §1446 withholding and any blocker.
-   - **Trusts**: what kind, since that decides S-corp eligibility.
+     foreign, ESOP), plus UBTI (§512), §1446 withholding and any blocker. For a
+     **disregarded entity**, also the filing status and other income of the
+     individual behind it — that individual is the taxpayer.
+   - **Trusts**: what kind, since that decides S-corp eligibility. For a
+     **grantor trust**, also the grantor's filing status and other income.
 2. Nature of business — service or product, and whether it is a licensed profession.
-3. Projected net income for the next three years, as a range.
-4. Which owners work in the business and which are passive.
+3. Projected net income for the next three years, as a range, **before any owner
+   compensation**. Owner pay differs by entity form, so it is asked per owner
+   (question 4) rather than netted in here.
+4. Which owners work in the business and which are passive; each working
+   owner's intended compensation; and whether the entity will pay owners'
+   health insurance or fund retirement plans for them.
 5. Expected profit split — pro rata or unequal.
 6. Whether the entity will borrow, and whether owners will personally guarantee.
+   A liability the entity assumes on contributed property counts as entity
+   debt too.
 7. Property being contributed. For each contributed asset capture the
    **contributor**, the **carryover basis** (their adjusted basis), the
    **present fair market value**, and the **liability the entity assumes** —
    these three figures decide whether the contribution is tax-free and what
-   basis everyone takes.
+   basis everyone takes. Also ask **when that liability was incurred** (debt
+   incurred within two years of the transfer is presumed to anticipate it,
+   Reg. §1.707-5(a)(7)), the acquisition date, and the depreciation taken
+   (recapture).
 8. Services contributed for equity by any owner.
 9. Losses expected in early years, and whether owners need them personally.
 10. Outside capital or equity-compensation horizon.
 11. Exit horizon and likely buyer type.
 12. Tolerance for formalities and ongoing administration.
 
-**For conversions**, also ask: what the current entity is, when it was formed, and
-whether prior elections have been made (S election, §754, QSST/ESBT, etc.).
+**For conversions**, also ask: what the current entity is, when it was formed,
+whether prior elections have been made (S election, §754, QSST/ESBT, etc.),
+each owner's **current stock or outside basis** — kept separate from any new
+money contributed now, since historic capital is not a contribution for the
+§351 control test — the **net built-in gain** amount, accumulated E&P, and, for
+a business carrying inventory, the **inventory method** (LIFO recapture).
 
 **Tag every input** as `client-stated`, `practitioner-estimated`, or
 `documented`. This tagging matters because the memo later surfaces which
 load-bearing facts are still unverified — you can't do that if you didn't track
 provenance as you went.
+
+**An unanswered question is not a "no".** When the client does not know, or a
+question was never asked, record it as open (`not sure`) and list it under
+Assumptions. Never write that the client declined, refused or ruled something
+out on the strength of a question nobody answered.
 
 Each of these answers is also a potential Tier 2 trigger. Watch for the trigger
 facts in the table below as you go.
@@ -174,7 +195,7 @@ module — keep that depth out of the conversation until it's actually needed.
 |---|---|
 | Appreciated / encumbered property contributed | §351 control vs. §721; §357(c)/(b); §704(c) built-in gain |
 | Unequal split or sweat equity | Special allocations & substantial economic effect; profits interest (Rev. Proc. 93-27); services-for-equity as comp |
-| Entity will carry debt | §752 basis for entity debt; S-corp basis limited to direct shareholder loans / debt-basis restoration |
+| Entity will carry debt (including a liability assumed on contributed property) | §752 basis for entity debt; S-corp basis limited to direct shareholder loans / debt-basis restoration |
 | Early losses expected | Loss-limitation stack: basis → §465 at-risk → §469 passive → §461(l) EBL → NOL carryforward |
 | Scalable business / significant exit | §1202 QSBS; F-reorg for S-corp targets; asset vs. stock sale (C-corp double-tax on asset sale vs. flow-through) |
 | High income with working owners | Reasonable comp & audit exposure; retirement-plan capacity (W-2 vs. SE); §199A phase-outs & SSTB; state PTET |
