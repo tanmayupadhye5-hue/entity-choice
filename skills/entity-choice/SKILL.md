@@ -237,7 +237,10 @@ contributed property, state:
 - **The contributing owner's outside basis** - §722, increased by their share of
   liabilities under §752 and reduced by the liability shifted to the others.
 - **§704(c) layer** - the built-in gain allocated back to that contributor, and
-  the method choice (traditional, curative, remedial) where it matters.
+  the method choice (traditional, curative, remedial) where it matters. The
+  method is chosen property by property in the partnership agreement and
+  applied consistently (Reg. §1.704-3(a)(2)). It is not an election filed with
+  the return, so do not list it as a filing deadline.
 - **Disguised sale (§707(a)(2)(B), Reg. §1.707-3/-5).** Where the entity
   assumes a liability on contributed property, decide whether it is a
   **qualified liability** (broadly, incurred more than two years before the
