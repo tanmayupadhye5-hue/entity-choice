@@ -60,3 +60,8 @@ drift, and its test suite fails on it. Run it after editing either side.
   called a risk; SE tax **shares one wage base per person**.
 - A benchmark figure older than the tax year is **flagged, not presented as
   current**; a figure missing from the file is never filled from memory.
+- A C-to-S or C-to-LLC conversion of a business with inventory raises **LIFO
+  recapture** (§1363(d); deemed sale in a §331/§336 liquidation).
+- Owner health insurance differs by form: §106 exclusion (C), **>2%
+  shareholder** wages + §162(l) (S, §1372), guaranteed payment + §162(l)
+  (partnership).

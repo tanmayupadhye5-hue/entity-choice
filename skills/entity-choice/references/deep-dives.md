@@ -115,6 +115,17 @@ partnership/LLC (debt basis under §752) over an S corp.
   SE income at all is unsettled (§1402(a)(13); *Renkemeyer*, *Soroban*); state
   the position taken.
 - **State PTET.** Elective pass-through entity tax to work around the SALT cap.
+- **Owner health insurance and fringe benefits.**
+  - C corp: owner premiums are generally excludable (§106); the most
+    favourable form.
+  - S corp: a >2% shareholder (with §318 family attribution) is treated as a
+    partner under §1372. Premiums the company pays are W-2 wages (box 1,
+    generally not FICA), and the shareholder deducts them under §162(l).
+    Cafeteria-plan and most excludable fringes are lost.
+  - Partnership/LLC: premiums are guaranteed payments, deductible under
+    §162(l).
+  Where the intake says the entity will pay owner health insurance, state the
+  treatment under each surviving form.
 
 ## 7. Real estate or multiple business lines
 **Trigger:** real estate held, or several distinct business lines.
@@ -144,6 +155,13 @@ partnership/LLC (debt basis under §752) over an S corp.
 - **Accumulated E&P** carries over and interacts with distributions.
 - **Passive investment income termination** — §1362(d)(3): an S corp with C-corp
   E&P and >25% passive income for 3 consecutive years loses S status.
+- **LIFO recapture (§1363(d)).** A C corp using LIFO that elects S includes its
+  LIFO recapture amount (the excess of FIFO over LIFO value) in income on its
+  final C-corporation return; the added tax is paid in four equal annual
+  installments. A conversion to an LLC is a §331/§336 liquidation in which
+  inventory is deemed sold at FMV, so the LIFO reserve is recognized there too.
+  For any business carrying inventory, ask the inventory method; if it is not
+  provided, list it as an unverified input.
 
 ## 10. Existing S corp
 **Trigger:** an existing S corp with any risk factors.
