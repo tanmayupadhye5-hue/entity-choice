@@ -34,14 +34,20 @@ authority. Keep this depth out of the client conversation.
   partnership assumes is sale consideration unless it is a **qualified
   liability** (broadly: incurred >2 years before the transfer, in the ordinary
   course, or allocable to capital expenditures on that property). Transfers
-  within two years are presumed a sale. Clear it explicitly.
+  within two years are presumed a sale. Clear it explicitly. Work each
+  liability tied to a contributed property on its own. Where co-owners
+  contribute shares of one asset, compare each co-owner's share of the
+  liability with that co-owner's own basis. Where the qualified-liability
+  category was entered, use it; where it is not sure, say which category would
+  clear the liability.
 - **§704(c).** In a partnership, built-in gain on contributed property must be
   allocated back to the contributing partner. This constrains "just split it
   evenly" arrangements and is a reason a partnership may be *more* faithful to
   economics than a corporation here.
 
 ## 2. Unequal split or sweat equity
-**Trigger:** profit split is unequal, or an owner receives equity for services.
+**Trigger:** profit split is unequal, an owner receives equity for services, or
+there is a preferred return.
 
 - **Special allocations & substantial economic effect** (§704(b) regs). Only
   partnerships/LLCs can specially allocate items; requires capital-account
@@ -56,13 +62,23 @@ authority. Keep this depth out of the client conversation.
   30 days** of grant - an absolute deadline with no §9100 relief. It is the
   standard precaution even for a profits interest, in case the interest is
   later recharacterised as a capital interest.
+- **Preferred return.** A priority return is an allocation and distribution
+  preference: in a partnership it needs §704(b)-compliant drafting (often a
+  targeted allocation); in an S corporation a preference in distributions
+  creates a second class of stock (§1361(b)(1)(D)).
 
 ## 3. Entity will carry debt
-**Trigger:** entity will borrow; owners may or may not guarantee.
+**Trigger:** the entity will carry or assume at least one liability.
 
 - **§752.** Partners/LLC members get **outside basis for entity-level debt**
   (recourse per economic-risk-of-loss; nonrecourse per the three-tier rules).
   This is a major partnership advantage for deducting debt-funded losses.
+- **Per liability, per guarantor.** Allocate each liability on its own. A
+  guarantee limited to an amount bears the economic risk of loss only up to
+  that amount; a loan from an owner is generally allocated to the lending
+  owner (Reg. §1.752-2(c)(1)).
+- **Qualified nonrecourse financing** is at risk under §465(b)(6), which
+  matters for the loss stack in Module 4.
 - **S-corp basis.** Shareholders get basis only for **direct** loans to the S
   corp — not for entity-level third-party debt, even if personally guaranteed.
   Watch debt-basis **restoration** ordering when the loan is later repaid.
@@ -113,7 +129,9 @@ partnership/LLC (debt basis under §752) over an S corp.
   2.9% Medicare on all net SE earnings (x 92.35%), and 0.9% Additional Medicare
   above the filing-status threshold. Whether a member's distributive share is
   SE income at all is unsettled (§1402(a)(13); *Renkemeyer*, *Soroban*); state
-  the position taken.
+  the position taken. Management structure matters here: in a manager-managed
+  LLC, members who are not managers are closer to limited partners for
+  §1402(a)(13).
 - **State PTET.** Elective pass-through entity tax to work around the SALT cap.
 - **Owner health insurance and fringe benefits.**
   - C corp: owner premiums are generally excludable (§106); the most
@@ -136,16 +154,27 @@ partnership/LLC (debt basis under §752) over an S corp.
   unsettled; note firm position in `benchmarks.md`).
 - **§754 election** — inside basis step-up on transfer/death; valuable for
   appreciating real estate held in a partnership.
+  Where succession or estate planning is a concern, compare what happens at an
+  owner's death: a partnership with a §754 election can step up the inside
+  basis of the deceased owner's share; an S or C corporation cannot.
 
 ## 8. Multi-state or foreign expansion
 **Trigger:** operations or sales across state lines or abroad.
 
+- **Work from the state rows.** For each state, its nexus reasons and its
+  payroll, property and sales against the company-wide totals; compare sales
+  (and transactions, where entered) with that state's threshold in
+  `benchmarks.md`.
 - **Post-*Wayfair* economic nexus** — sales-tax registration triggered by revenue
   and/or transaction counts per state (see `benchmarks.md`). A safety-floor flag
   when a threshold is crossed.
 - **State non-recognition of S status** — some states/cities don't follow the
-  federal S election (e.g., NY requires a separate election; check NYC).
+  federal S election (e.g., NY requires a separate election; check each local
+  jurisdiction entered, such as NYC).
 - **State PTET** to bypass the $10k SALT cap where available.
+- **Owner residence.** Each owner's home state generally taxes that owner's
+  whole share, with a credit for other states' tax, so PTET value is worked
+  per owner and per state.
 
 ## 9. Existing C corp converting
 **Trigger:** an existing C corp is considering S election or conversion.

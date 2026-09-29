@@ -101,14 +101,14 @@ outright. State the disqualifying fact when you drop an option.
 | Fact | Eliminates | Pointer |
 |---|---|---|
 | One owner | GP, LLP (need 2+ owners) | — |
-| Non-resident alien owner | S corp | §1361(b)(1)(C) |
+| Non-resident alien owner | S corp | §1361(b)(1)(C) — only a definite **yes** eliminates; if **not sure** for any owner, keep the S corp provisionally and flag it. |
 | Corporate or partnership owner | S corp | §1361(b)(1)(B) — but a **disregarded entity** looks through to its owner and does not itself disqualify. |
 | More than 100 shareholders | S corp | §1361(b)(1)(A) |
 | Needs more than one class of stock | S corp | §1361(b)(1)(D) — only a definite **yes** eliminates. If the answer is **not sure**, keep the S corp **provisionally** and flag the one-class question as open in the memo. |
 | **Ineligible** trust holds interest | S corp | §1361(c)(2) — grantor, QSST, ESBT, voting and testamentary (2-yr) trusts **are eligible**; QSST/ESBT require an election. Only other trusts disqualify. |
-| Liability shield required | Sole prop, GP | — |
+| Liability shield required | Sole prop, GP | — only a definite **yes** eliminates. If **not sure**, keep whichever of them the owner count leaves standing, provisionally, and flag the question as open. |
 | Licensed profession | Plain LLC in many states (PLLC/PC instead) | state law |
-| Institutional outside capital planned | All but C corp (investor preference for preferred stock) | — |
+| Institutional outside capital planned | All but C corp (investor preference for preferred stock) | — only a definite **yes** eliminates; if **not sure**, keep the options and flag it as open. |
 
 After Tier 0 you should usually hold a **shortlist of 2–3 surviving options.**
 Announce it before moving on.
@@ -121,7 +121,11 @@ Ask **one question at a time, conversationally** — not as a wall of form field
 Three questions open every run:
 
 1. New formation, or an existing entity considering a change?
-2. State of formation, and states of operation.
+2. State of formation, and every other state where the business has people, property or sales.
+   For each state: why the business is connected to it (formed there, physical presence,
+   employees, sales only), its payroll, property and sales against the company-wide totals,
+   and whether a PTET election there is of interest. For each owner: the state they are
+   resident in.
 3. Tax year to apply.
 
 Then the standard twelve:
@@ -145,22 +149,25 @@ Then the standard twelve:
    owner's intended compensation; and whether the entity will pay owners'
    health insurance or fund retirement plans for them.
 5. Expected profit split — pro rata or unequal.
-6. Whether the entity will borrow, and whether owners will personally guarantee.
-   A liability the entity assumes on contributed property counts as entity
-   debt too.
+6. Each liability the entity will carry or assume, one at a time: the lender (bank
+   or SBA, seller, an owner, a related party), the amount, whether it is recourse,
+   nonrecourse or qualified nonrecourse, which owners personally guarantee it and
+   whether each guarantee is full or limited to an amount, and whether it is tied to
+   a contributed property. A liability on contributed property is entered once, here.
 7. Property being contributed. For each contributed asset capture the
-   **contributor**, the **carryover basis** (their adjusted basis), the
-   **present fair market value**, and the **liability the entity assumes** —
-   these three figures decide whether the contribution is tax-free and what
-   basis everyone takes. Also ask **when that liability was incurred** (debt
-   incurred within two years of the transfer is presumed to anticipate it,
-   Reg. §1.707-5(a)(7)), the acquisition date, and the depreciation taken
-   (recapture).
+   **contributor**, the **carryover basis** (their adjusted basis) and the
+   **present fair market value**, and link **any liability tied to it** from
+   question 6 — these decide whether the contribution is tax-free and what
+   basis everyone takes. For each tied liability also ask **when it was
+   incurred** (debt incurred within two years of the transfer is presumed to
+   anticipate it, Reg. §1.707-5(a)(7)) and, where it matters, why it is a
+   qualified liability; for the asset, ask the acquisition date and the
+   depreciation taken (recapture).
 8. Services contributed for equity by any owner.
 9. Losses expected in early years, and whether owners need them personally.
 10. Outside capital or equity-compensation horizon.
 11. Exit horizon and likely buyer type.
-12. Tolerance for formalities and ongoing administration.
+12. Tolerance for formalities and ongoing administration, and the intended management structure.
 
 **For conversions**, also ask: what the current entity is, when it was formed,
 whether prior elections have been made (S election, §754, QSST/ESBT, etc.),
@@ -194,8 +201,8 @@ module — keep that depth out of the conversation until it's actually needed.
 | Trigger fact from Tier 1 | Module |
 |---|---|
 | Appreciated / encumbered property contributed | §351 control vs. §721; §357(c)/(b); §704(c) built-in gain |
-| Unequal split or sweat equity | Special allocations & substantial economic effect; profits interest (Rev. Proc. 93-27); services-for-equity as comp |
-| Entity will carry debt (including a liability assumed on contributed property) | §752 basis for entity debt; S-corp basis limited to direct shareholder loans / debt-basis restoration |
+| Unequal split, sweat equity or a preferred return | Special allocations & substantial economic effect; profits interest (Rev. Proc. 93-27); services-for-equity as comp |
+| Entity will carry or assume at least one liability (including one on contributed property) | §752 basis for entity debt; S-corp basis limited to direct shareholder loans / debt-basis restoration |
 | Early losses expected | Loss-limitation stack: basis → §465 at-risk → §469 passive → §461(l) EBL → NOL carryforward |
 | Scalable business / significant exit | §1202 QSBS; F-reorg for S-corp targets; asset vs. stock sale (C-corp double-tax on asset sale vs. flow-through) |
 | High income with working owners | Reasonable comp & audit exposure; retirement-plan capacity (W-2 vs. SE); §199A phase-outs & SSTB; state PTET |
@@ -288,7 +295,8 @@ omission here is the most expensive kind.)*
 - **Form 2553** - where an S election is contemplated: generally 2 months and
   15 days from the start of the tax year it is to take effect.
 - **QSST / ESBT election** - where a trust would hold S corporation stock.
-- **§754 election** - where appreciated property or real estate is involved:
+- **§754 election** - where appreciated property or real estate is involved, or
+  succession or estate planning is a concern:
   filed with a timely return for the year of the transfer or death, and it binds
   the partnership going forward.
 - **First-return elections** - accounting method, and the required tax year.
