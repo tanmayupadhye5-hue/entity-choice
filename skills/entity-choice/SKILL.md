@@ -102,7 +102,7 @@ outright. State the disqualifying fact when you drop an option.
 |---|---|---|
 | One owner | GP, LLP (need 2+ owners) | — |
 | Non-resident alien owner | S corp | §1361(b)(1)(C) — only a definite **yes** eliminates; if **not sure** for any owner, keep the S corp provisionally and flag it. |
-| Corporate or partnership owner | S corp | §1361(b)(1)(B) — but a **disregarded entity** looks through to its owner and does not itself disqualify. |
+| Entity owner that is not an eligible shareholder | S corp | §1361(b)(1)(B) — a C or S corporation, partnership, foreign entity or tax-exempt organisation other than a §501(c)(3) eliminates. A §401(a) trust (ESOP), a §501(c)(3) organisation (§1361(c)(6)) and an estate do not. A **disregarded entity** looks through to its owner: eliminate only if that owner is a corporation, partnership or foreign entity. If the owner type is **other**, or the disregarded entity's owner is **other** or **not sure**, keep the S corp provisionally and flag it as open. |
 | More than 100 shareholders | S corp | §1361(b)(1)(A) |
 | Needs more than one class of stock | S corp | §1361(b)(1)(D) — only a definite **yes** eliminates. If the answer is **not sure**, keep the S corp **provisionally** and flag the one-class question as open in the memo. |
 | **Ineligible** trust holds interest | S corp | §1361(c)(2) — grantor, QSST, ESBT, voting and testamentary (2-yr) trusts **are eligible**; QSST/ESBT require an election. Only other trusts disqualify. |
@@ -135,12 +135,15 @@ Then the standard twelve:
    - **Individuals**: filing status (single, MFJ, MFS, head of household, qualifying
      surviving spouse) and other taxable income — the §199A threshold test is applied to
      *each owner's own* taxable income, and MFJ carries roughly double the threshold.
-   - **Entities**: what kind (C corp, S corp, partnership, disregarded, tax-exempt,
-     foreign, ESOP), plus UBTI (§512), §1446 withholding and any blocker. For a
-     **disregarded entity**, also the filing status and other income of the
-     individual behind it — that individual is the taxpayer.
-   - **Trusts**: what kind, since that decides S-corp eligibility. For a
-     **grantor trust**, also the grantor's filing status and other income.
+   - **Entities**: what kind (C corp, S corp, partnership, disregarded,
+     §501(c)(3) charity, other tax-exempt, foreign, ESOP, other), plus UBTI (§512),
+     §1446 withholding and any blocker. For a **disregarded entity**, also who owns
+     it (an individual, a grantor trust, a corporation, partnership or foreign
+     entity, something else, or not sure); if an individual or grantor trust, the
+     filing status and other income of the individual taxed on it.
+   - **Trusts**: what kind (including an **estate**), since that decides S-corp
+     eligibility. For a **grantor trust**, also the grantor's filing status and
+     other income.
 2. Nature of business — service or product, and whether it is a licensed profession.
 3. Projected net income for the next three years, as a range, **before any owner
    compensation**. Owner pay differs by entity form, so it is asked per owner
