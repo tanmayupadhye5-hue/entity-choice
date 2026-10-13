@@ -204,7 +204,7 @@ module — keep that depth out of the conversation until it's actually needed.
 | Trigger fact from Tier 1 | Module |
 |---|---|
 | Appreciated / encumbered property contributed | §351 control vs. §721; §357(c)/(b); §704(c) built-in gain |
-| Unequal split, sweat equity or a preferred return | Special allocations & substantial economic effect; profits interest (Rev. Proc. 93-27); services-for-equity as comp |
+| Unequal split (profit or loss), sweat equity or a preferred return | Special allocations & substantial economic effect; profits interest (Rev. Proc. 93-27); services-for-equity as comp |
 | Entity will carry or assume at least one liability (including one on contributed property) | §752 basis for entity debt; S-corp basis limited to direct shareholder loans / debt-basis restoration |
 | Early losses expected | Loss-limitation stack: basis → §465 at-risk → §469 passive → §461(l) EBL → NOL carryforward |
 | Scalable business / significant exit | §1202 QSBS; F-reorg for S-corp targets; asset vs. stock sale (C-corp double-tax on asset sale vs. flow-through) |

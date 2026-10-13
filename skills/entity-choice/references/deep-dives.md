@@ -46,8 +46,8 @@ authority. Keep this depth out of the client conversation.
   economics than a corporation here.
 
 ## 2. Unequal split or sweat equity
-**Trigger:** profit split is unequal, an owner receives equity for services, or
-there is a preferred return.
+**Trigger:** profit split is unequal, a loss split differs from the profit split,
+an owner receives equity for services, or there is a preferred return.
 
 - **Special allocations & substantial economic effect** (§704(b) regs). Only
   partnerships/LLCs can specially allocate items; requires capital-account
