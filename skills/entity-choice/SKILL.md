@@ -100,7 +100,7 @@ outright. State the disqualifying fact when you drop an option.
 
 | Fact | Eliminates | Pointer |
 |---|---|---|
-| One owner | GP, LLP (need 2+ owners) | — |
+| One owner | GP, LLP (need 2+ owners) | Count owners only: a guarantor who is not an owner (a spouse who only guarantees a loan) is never an owner. |
 | Non-resident alien owner | S corp | §1361(b)(1)(C) — only a definite **yes** eliminates; if **not sure** for any owner, keep the S corp provisionally and flag it. |
 | Entity owner that is not an eligible shareholder | S corp | §1361(b)(1)(B) — a C or S corporation, partnership, foreign entity or tax-exempt organisation other than a §501(c)(3) organisation or a §401(a) trust eliminates. A §401(a) trust (ESOP), a §501(c)(3) organisation (§1361(c)(6)) and an estate do not. A **disregarded entity** looks through to its owner: eliminate only if that owner is a corporation, partnership or foreign entity. If the owner type is **other**, or the disregarded entity's owner is **other** or **not sure**, keep the S corp provisionally and flag it as open. |
 | More than 100 shareholders | S corp | §1361(b)(1)(A) |
@@ -155,8 +155,9 @@ Then the standard twelve:
 6. Each liability the entity will carry or assume, one at a time: the lender (bank
    or SBA, seller, an owner, a related party), the amount, whether it is recourse,
    nonrecourse or qualified nonrecourse, which owners personally guarantee it and
-   whether each guarantee is full or limited to an amount, and whether it is tied to
-   a contributed property. A liability on contributed property is entered once, here.
+   whether each guarantee is full or limited to an amount, anyone who is not an owner
+   who guarantees it (a spouse, a parent, an affiliated company) and their relationship
+   to an owner, and whether it is tied to a contributed property. A liability on contributed property is entered once, here.
 7. Property being contributed. For each contributed asset capture the
    **contributor**, the **carryover basis** (their adjusted basis) and the
    **present fair market value**, and link **any liability tied to it** from

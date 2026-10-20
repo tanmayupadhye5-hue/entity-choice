@@ -77,6 +77,16 @@ an owner receives equity for services, or there is a preferred return.
   guarantee limited to an amount bears the economic risk of loss only up to
   that amount; a loan from an owner is generally allocated to the lending
   owner (Reg. §1.752-2(c)(1)).
+- **Guarantors who are not owners.** A spouse, relative or company that only
+  guarantees a liability is never an owner, partner or shareholder. In a
+  partnership a **related person's** guarantee is the partner's for §752
+  (Reg. §1.752-2(b)(1), §1.752-4(b)): related means a §267(b) or §707(b)(1)
+  relationship at 80% or more, and family is the spouse, ancestors and lineal
+  descendants - **not brothers and sisters**. A person related to more than
+  one partner is shared by profits interests (§1.752-4(b)(3)). An unrelated
+  guarantor's guarantee puts no partner at risk by itself. §752 basis is not
+  §465 at-risk. In an S corp no guarantee gives debt basis
+  (Reg. §1.1366-2(a)(2)(ii)), and none is attributed to a shareholder.
 - **Qualified nonrecourse financing** is at risk under §465(b)(6), which
   matters for the loss stack in Module 4.
 - **S-corp basis.** Shareholders get basis only for **direct** loans to the S
